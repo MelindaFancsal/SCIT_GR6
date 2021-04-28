@@ -7,8 +7,6 @@ public abstract class Animal {
         this.picioare = picioare;
     }
 
-    public abstract void mananca();
-
     public void merge() {
         System.out.println("animalul cu: " + this.picioare + " picioare merge acum");
     }
